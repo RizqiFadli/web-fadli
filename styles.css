@@ -1,0 +1,178 @@
+html, body {
+    height: 100;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 60px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.welcome {
+    text-align: center;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.welcome h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.welcome p {
+    color: #666;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    background-image: url(/image/back\ \(1\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 110%;
+    object-fit: cover;
+}
+
+.profile {
+    width: 60%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f9f9f9;
+    border: 5px solid  #7FFF00;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+main .profile p {
+    text-align: center;
+}
+
+.profile h1 {
+    text-align: center; /* Center the heading */
+}
+
+.profile-pic {
+    display: block;
+    margin: 0 auto 20px auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+/* Bagian Galeri */
+.galery {
+    display: flex;
+    justify-content: center;
+    gap: 50px; /* Menambahkan jarak antar gambar */
+    flex-wrap: wrap; /* Membuat gambar tetap rapi saat layar mengecil */
+    padding: 20px;
+}
+
+.foto-galery {
+    width: 200px;
+    height: 200px; /* Ukuran gambar yang seragam */
+    object-fit: cover; /* Menjaga proporsi gambar dan memotong sisanya */
+    border: 2px solid #ddd; /* Menambahkan border di sekitar gambar */
+    border-radius: 5px; /* Membuat sudut gambar sedikit membulat */
+    transition: transform 0.3s ease; /* Animasi saat hover */
+}
+
+.foto-galery:hover {
+    transform: scale(1.15); /* Efek zoom saat gambar di-hover */
+}
+
+p {
+    text-align: start;
+}
+
+.table {
+    text-align: center;
+}
+
+.Kontak {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #ddd;
+    border: 5px solid  #7FFF00;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.Kontak h1 {
+    text-align: center;
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.Kontak table {
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.Kontak table td {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border-bottom: 1px solid #ddd;
+}
+
+.Kontak table td a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.Kontak table td a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px; /* Tinggi footer */
+}
+
+/*form pendaftaran */
+header h5 {
+    text-align: center;
+}
+
+div .container {
+    display: flex;
+}
+
